@@ -1,0 +1,3 @@
+[submodule "ATtiny85_BSP"]
+	path = ATtiny85_BSP
+	url = https://github.com/wireless-hazard/ATtiny85_BSP

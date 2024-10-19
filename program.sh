@@ -1,0 +1,1 @@
+sudo micronucleus --run blink.hex
