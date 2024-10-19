@@ -1,4 +1,4 @@
-FREQ      = 2000000
+FREQ      = 16000000
 DEVICE    = attiny85
 SRC       = src/main.cpp src/blink_pattern.cpp
 TARGET    = blink
