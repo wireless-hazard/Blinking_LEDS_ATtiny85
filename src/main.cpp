@@ -1,13 +1,9 @@
 #include <util/delay.h>
 #include "blink_pattern.hpp"
 
-static const AT85::blink::duration_t array_of_delays[6] = {
-    {1,2},
-    {2,3},
-    {3,1},
-    {4,2},
-    {2,2},
-    {1,1}
+static const AT85::blink::duration_t array_of_delays[] = {
+    {1,1},
+    {1,1},
     };
 
 int main(void)

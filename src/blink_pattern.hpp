@@ -9,10 +9,10 @@ namespace AT85::blink
 
 typedef struct
 {
-    uint8_t time_on;
-    uint8_t time_off;
+    uint16_t time_on;
+    uint16_t time_off;
 } duration_t;
 
-void IterateOverPattern(const duration_t *seconds, size_t length, AT85::GPIO::port_t port);
+void IterateOverPattern(const duration_t *hundred_ms_delays_array, size_t length, AT85::GPIO::port_t port);
 
 }
